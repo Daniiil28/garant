@@ -1,0 +1,144 @@
+@font-face{
+    font-family: 'Pf Din Display';
+    src: local('Pf Din Display'), url("PFDinDisplayPro-Light.woff") format('woff');
+    src: url("PFDinDisplayPro-Light.woff") format('woff'),
+           url("PFDinDisplayPro-Light.woff") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    min-width:1100px;
+    max-width: 1500px;
+    width:auto;
+}
+
+body{
+    min-width:1101px;}
+
+
+/*шрифты*/
+body {font-family: 'Pf Din Display', Helvetica, sans-serif}
+h1.title , #main_page p.title,#content .block_on_main .fz_title {font-family: 'Pf Din Display', Helvetica, sans-serif}
+nav ,#left_nav , #right_nav, #content_nav  {font-family: 'Pf Din Display', Helvetica, sans-serif}
+
+#content ,#BLOCK_ON_MAIN , body.redactor,.block_on_main{font-size: 18px}
+header{font-size: 18px}
+footer{font-size: 16px}
+#content h1.title , .fz_title {font-size: 24px}
+#content .block_on_main .fz_title {font-size: 24px}
+#content .block_on_main section {font-size: 18px}
+aside .block p.title {font-size: 20px;    margin-bottom: 15px;}
+aside .block .text{font-size: 16px}
+.news_row .title , .blog_post .title ,.catalog_map_element .title,.post .title{font-size: 22px}
+nav#G_MENU li>a{font-size: 18px}
+aside #left_nav li>a {font-size: 16px}
+#content_nav li>a {font-size: 16px;text-decoration:none;}
+
+a , .crumbs a, .crumbs span , .alblink .albom_title, .style_a_color{ color: rgb(0, 98, 219) }
+/*.btn {    border-color: rgb(0, 98, 219) ;}*/
+a.site_tag:hover{background-color: rgb(0, 98, 219)}
+a:hover, .alblink:hover .albom_title, .style_a_color:hover ,.style_a_color_hover { color: rgb(246, 41, 46)}
+.gallink:hover img,.alblink.four_img:hover .wrap_four_img ,.btn:hover{
+    border-color: rgb(246, 41, 46);
+}
+.alblink:hover .img {background-color:rgb(246, 41, 46)}
+body:not(.redactor) {background: rgb(255, 255, 255)  ;}
+.container { background-color:rgb(255, 255, 255)}
+.main_page_is_blocks .container{ background-color:initial}
+  .container.wrapper {
+      padding-right: 0 ;
+      padding-left: 0;
+  }
+    header, header .container, header.container  {background: rgb(235, 243, 255) url("top.jpg") repeat-x 50% 0;}
+    @media (max-width: 400px){
+        header, header .container, header.container  {background-color: rgb(235, 243, 255) }
+    }
+
+nav, nav .container, .nav_wrapper {background-color: rgb(0, 98, 219);}
+nav  ul  li a{color:rgb(255, 255, 255)}
+#gorizont_spoiler_menu_but .fa,#gorizont_spoiler_menu_but {color: rgb(255, 255, 255);}
+nav ul.ul_lvl_1 > li.active > a  {background-color: rgb(246, 41, 46);color:rgb(255, 255, 255)}
+nav ul.ul_lvl_1 > li:hover > a {background-color: rgb(246, 41, 46);color:rgb(255, 255, 255)}
+#gorizont_spoiler_menu_but:hover .fa{color:rgb(255, 255, 255)}
+#gorizont_spoiler_menu_but:hover {background-color: rgb(246, 41, 46);}
+nav ul.ul_lvl_1 > li > ul  a.active {color:rgb(255, 255, 255)}
+nav ul.ul_lvl_1 > li > ul {background-color: rgb(246, 41, 46);color:rgb(247, 247, 247)}
+nav ul.ul_lvl_1 > li > ul li a , nav ul.ul_lvl_1 > li > ul li a:hover{color:rgb(247, 247, 247)}
+nav ul.ul_lvl_1 > li > ul > li {border-bottom: 1px dashed rgb(247, 247, 247);}
+nav ul.ul_lvl_1 > li > ul > li:last-child {border-bottom: none}
+
+nav ul.ul_lvl_1{ text-align:center}
+nav ul.ul_lvl_1 ul li{ text-align:left}
+
+#left_nav div{background-color: rgb(247, 247, 247); text-align:left}
+#left_nav div ul > li a , #left_nav div ul li ul li a{color:rgb(67, 67, 67)}
+#left_nav  ul > li.active > a , #left_nav > ul > li > ul > li > a.active {background: rgb(246, 41, 46);color:rgb(255, 255, 255)}
+#left_nav div  ul > li a:hover,#left_nav div ul li ul li a:hover {background-color: rgb(0, 98, 219);color:rgb(255, 255, 255)}
+#left_nav div ul > li > ul {background-color: rgb(217, 217, 217);color:rgb(67, 67, 67)}
+#left_nav div ul > li > ul > li a {color:rgb(67, 67, 67)}
+#left_nav div ul > li {border-bottom: 1px solid rgb(217, 217, 217);}
+#left_nav div ul > li:last-child {border-bottom: none}
+#left_nav div ul li ul li a.active {color:rgb(0, 98, 219)}
+
+#content_nav ul{text-align:left}
+#content_nav li>a {background: rgb(247, 247, 247);color:rgb(67, 67, 67)}
+#content_nav  ul > li.active > a , #content_nav > ul > li > ul > li > a.active {background: rgb(246, 41, 46);color:rgb(255, 255, 255)}
+
+#content_nav  ul > li > a:hover , #content_nav > ul > li > ul > li > a:hover{background-color: rgb(0, 98, 219);color:rgb(255, 255, 255)}
+#content_nav .founded_uL_lvl_2 ul > li > a{background-color: rgb(217, 217, 217);color:rgb(67, 67, 67)}
+#content_nav .founded_uL_lvl_2 ul > li a.active {color:rgb(0, 98, 219)}
+
+
+footer,footer>.container,footer.container {
+    color: rgb(67, 67, 67) ;
+    background-color:rgb(235, 243, 255);
+                     background:rgb(235, 243, 255) url("foot.jpg") repeat-x center 0%;
+            }
+@media (max-width: 600px){
+  header,header .container{background-image:none}
+           footer{background-image:none}
+     }
+footer a, footer a:hover , .style_footer_a_color{    color: rgb(0, 98, 219) ;   }
+header a , header a:hover{    color: rgb(0, 98, 219) ;   }
+.wrap {
+    border: 1px solid rgb(239, 239, 239);
+    background-color: rgb(255, 255, 255);
+    color:rgb(67, 67, 67);
+    padding: 20px;
+}
+#left_nav ul li {margin: 0 20px;}
+#left_nav ul {
+    margin: 0 -20px;
+}
+#left_nav ul li a {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 -20px;
+}
+#BLOCK_ON_MAIN {
+    background-color: rgb(147, 196, 125);
+    }
+.news .post:not(:last-child), .blog .blog_post:not(:last-child), .catalog_map_element:not(:last-child){
+    border-color:  rgb(239, 239, 239);}
+
+body.redactor{ background-color: rgb(255, 255, 255);}
+#nivoSlider {
+    border: 1px solid rgb(239, 239, 239);
+}
+#nivoSlider img,#nivoSlider{
+    /*width: 1240px !important;*/
+    height: 300px !important;
+}
+#slider ,#owl_slider .slide,#owl_slider ,  .top_slider:not(.container) {
+    height: 300px;}
+#calendar .days.m a {border:1px solid rgb(255, 255, 255)}
+h2.title , h1.title, .block>p.title ,.messages .question .p .name, .messages .answer .p .name, .comment dt .name ,.color_title{
+    color: rgb(0, 98, 219);
+}
+header .header_text {color:rgb(68, 68, 68)}
+#content .post .cover_img  {
+  max-width: 220px;
+}
+h1.title{text-align:left}
+.block_on_main .fz_title{text-align:center}
+aside .block , aside .block.block_type_calendar   , a.special {width:240px !important}
